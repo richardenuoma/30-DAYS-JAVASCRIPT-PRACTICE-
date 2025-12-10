@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Body Fat Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="container">
+        <h1>Body Fat Calculator</h1>
+        <p>Uses the YMCA formula to estimate body fat percentage based on waist measurement.</p>
+
+        <label for="waist"> Waist Circumference (inches)</label>
+        <input type="number" name="waist" max="20" id="waist">
+
+        <label for="weight">Weight (pounds) </label>
+        <input type="number" name="weight" max="50" id="weight">
+
+        <button class="btn" >Calculate Body Fat </button>
+
+        <div class="hide-result show-result">
+            <h3>Your Result</h3>
+            <h1 class="result"> </h1>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
