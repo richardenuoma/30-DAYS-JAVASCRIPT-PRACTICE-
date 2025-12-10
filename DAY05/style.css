@@ -1,0 +1,39 @@
+:root{
+    --pink: rgb(169, 32, 149);
+    --black: #000;
+    --white: #fff;
+    
+}
+
+body{
+    box-sizing: border-box;
+    font-family: "Helvetica";
+}
+
+.container{
+    margin: 50px auto;
+    border: 1px solid black;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    color: var(--white);
+    background: var(--black);
+}
+
+input{
+    display: block;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: var(--pink);
+    color: var(--white);
+    cursor: pointer;
+    margin-top: 15px;
+}
