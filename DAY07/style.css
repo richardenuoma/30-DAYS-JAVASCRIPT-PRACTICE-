@@ -1,3 +1,5 @@
+/* Created a root variable for storing colors for this project */
+
 :root {
     --dark-bg: #121212; /* Very dark background */
     --text-color: #ffffff; /* White text */
@@ -10,6 +12,7 @@ body{
     font-family: 'Helvetica';
 }
 
+/* Styling for container */
 .container{
     border: 1px solid black;
     width: 50%;
@@ -23,6 +26,7 @@ body{
     margin: 5px;
 }
 
+/* Styling for option buttons */
 .option-button{
     padding: 10px;
     border: 1px solid black;
@@ -38,6 +42,7 @@ body{
     color: var(--dark-bg);
 }
 
+/* Styling for label options  */
 .label{
     border: 1px solid var(--border-color);
     padding: 3px;
@@ -45,6 +50,7 @@ body{
     border-radius: 4px;
 }
 
+/* Styling for input options */
 .input-message{
     padding: 10px;
     width: 80%;
@@ -58,6 +64,7 @@ body{
 }
 
 
+/* Create Btn Styling  */
 .create-btn{
     display: block;
     margin: 20px auto;
