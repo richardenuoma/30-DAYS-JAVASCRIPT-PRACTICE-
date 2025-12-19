@@ -1,0 +1,66 @@
+:root{
+    --background: #fff;
+    --headingColor: rgb(76, 11, 162);
+    --lightHeading: rgb(124, 62, 205);
+}
+
+body{
+    box-sizing: border-box;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+h1,h3{
+    color: var(--headingColor);
+}
+
+.container{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 60px auto;
+}
+
+/* Progress Bar */
+
+.progressbar{
+    width: 80%;
+    height: 7px;
+    background: rgb(222, 222, 222);
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.progressfill{
+    background-color: var(--headingColor);
+    height: 100%;
+    width: 0%;
+}
+
+.cardDisplay{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.082);
+}
+
+.btn{
+    border: none;
+    padding: 10px;
+    display: block;
+    margin: 30px auto;
+    width: 20%;
+    background-color: var(--headingColor);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: translateY(-5%);
+    background-color: var(--lightHeading);
+}
+
