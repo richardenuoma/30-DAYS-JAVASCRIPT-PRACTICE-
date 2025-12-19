@@ -8,5 +8,5 @@
 * Day 7 - Strings ":)" You know what a string is don't you? You're in Github ofcourse u do!
 * Day 8 - :( quite a bit challanging but i'll come back to it, sorry for messing up the fun...
 * Day 9 - Inputs (in progress)
-
+* Day 10 - Flash Cards --- Damn Javascript pretty hard but i'm tryin to understand it all together lol
 Cheers 
