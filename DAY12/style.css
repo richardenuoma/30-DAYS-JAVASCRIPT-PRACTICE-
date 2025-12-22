@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+ 
+}
+
+.container{
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
+}
+
+.btn{
+    border: 1px solid red;
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.btn:hover{
+    background: white;
+    color: red;
+}
+
+i{
+    display: block;
+}
