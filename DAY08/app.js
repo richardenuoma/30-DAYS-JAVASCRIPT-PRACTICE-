@@ -6,7 +6,7 @@ let scoreArray = []
 
 btn.addEventListener('click', ()=>{
     inputs.forEach((item)=>{
-        let value = item.value;
+        let value = Number(item.value);
         scoreArray.push(value);
     })
     console.log(scoreArray)
