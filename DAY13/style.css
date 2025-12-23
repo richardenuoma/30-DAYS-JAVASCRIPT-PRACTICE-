@@ -1,0 +1,61 @@
+:root{
+--font-family: "Pixelify Sans", sans-serif;
+
+}
+
+
+body{
+    box-sizing: border-box;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.627);
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    
+}
+
+h1,.intro,label,h3{
+    font-family: var(--font-family);
+}
+
+input[type="number"] {
+    font-family: "Helvetica";
+    font-size: 18px;
+    outline: none;
+    padding: 8px;
+    width: 40%;
+}
+
+.btn{
+    background: purple;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-family: var(--font-family);
+    width: 10%;
+}
+
+.result{
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+
+
+
+
+ 
