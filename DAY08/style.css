@@ -23,6 +23,7 @@ form{
     width: 70%;
     margin: 0 auto;
 }
+
 label{
     display: block;
     margin-top: 10px;
@@ -30,6 +31,7 @@ label{
 
 input[type="number"]{
     padding: 10px;
+    margin: 10px;
     width: 80%;
     outline: none;
     border: none;

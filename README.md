@@ -6,7 +6,13 @@
 * Day 5 - Farenheight Converter to Celcius 
 * Day 6 - Variables... Interesting but there wasn't any project for me to do. so Moving to the next day... 
 * Day 7 - Strings ":)" You know what a string is don't you? You're in Github ofcourse u do!
-* Day 8 - :( quite a bit challanging but i'll come back to it, sorry for messing up the fun...
-* Day 9 - Inputs (in progress)
+* Day 8 - :Grade Average Calculator 
+( quite a bit challanging but i'll come back to it, sorry for messing up the fun...
+So after 4 days i came back to fix this... was actually not that difficult lol
+
+* Day 9 - Dog Age Calculator
 * Day 10 - Flash Cards --- Damn Javascript pretty hard but i'm tryin to understand it all together lol
 Cheers 
+* Day 11 - Random Dice Challange 
+* Day 12 - Wakeup Project
+* Day 13 - Number Guessing
