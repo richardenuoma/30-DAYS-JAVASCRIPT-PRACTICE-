@@ -1,0 +1,40 @@
+body{
+    font-family: "Helvetica";
+    box-sizing: border-box;
+}
+
+.container{
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+}
+
+.emojis{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.result{
+    font-size: 40px;
+}
+
+.computer{
+    font-size: 30px;
+}
+
+.resetBtn{
+    border: none;
+    padding: 10px;
+    width: 40%;
+    font-size: 20px;
+    background: rgb(253, 222, 19);
+    cursor: pointer;
+    border-radius: 5px;
+}
