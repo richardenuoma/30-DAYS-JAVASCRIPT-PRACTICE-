@@ -1,0 +1,109 @@
+:root{
+    --orangeColor : rgb(255, 123, 0);
+    --lightOrangeColor: rgb(249, 163, 82);
+    --lightColor : white;
+    --lightGrey: rgb(181, 179, 179);
+    --darkGrey: rgb(120, 119, 119);
+    --black: rgb(31, 31, 31);
+    --body: rgb(59, 85, 114);
+}
+
+body{
+    /* background-color: var(--body); */
+    box-sizing: border-box;
+}
+
+
+.calculator{
+    width: 35%; 
+    background: black;
+    margin: 50px auto;
+}
+
+input[type="text"]{
+    background: none;
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    color: white;
+    font-family: 'Helvetica';
+    font-size: 15px;
+}
+
+.calculatorResult{
+    /* border: 1px solid white; */
+    margin: 0;
+    width: 50%;
+    height: 90%;
+    padding: 10px;
+    color: white;
+    font-family: 'Helvetica';
+    font-size: 40px;
+
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+}
+
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12),
+button:nth-child(16),
+button:nth-child(19){
+    background: var(--orangeColor);
+    color: white;
+}
+
+button:nth-child(4):hover,
+button:nth-child(8):hover,
+button:nth-child(12):hover,
+button:nth-child(16):hover,
+button:nth-child(19):hover{
+    background:var(--lightOrangeColor);
+}
+
+button:nth-child(1),
+button:nth-child(2),
+button:nth-child(3){
+    background: var(--darkGrey);
+}
+
+button:nth-child(1):hover,
+button:nth-child(2):hover,
+button:nth-child(3):hover{
+    background: var(--lightGrey);
+}
+
+button:nth-child(5):hover,
+button:nth-child(6):hover,
+button:nth-child(7):hover,
+button:nth-child(9):hover,
+button:nth-child(10):hover,
+button:nth-child(11):hover,
+button:nth-child(13):hover,
+button:nth-child(14):hover,
+button:nth-child(15):hover,
+button:nth-child(17):hover,
+button:nth-child(18):hover{
+    background: var(--lightGrey)
+}
+
+button{
+    padding: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:nth-child(17){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
