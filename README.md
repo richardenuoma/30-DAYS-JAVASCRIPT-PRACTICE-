@@ -17,3 +17,5 @@ Cheers
 * Day 12 - Wakeup Project
 * Day 13 - Number Guessing
 * Day 14 - Rock Paper Scissors Challange 
+* Day 15 - Switch Statement :) Easy but still haven't done the project, will come back to it!
+* Day 16 - Functions & How they work, no challange for me, i guess it's a challenge free day but i took out time to study functions and how they work, repeated the course for 4 days... for every assignment i got stuck lol :)
