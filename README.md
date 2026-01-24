@@ -24,4 +24,10 @@ Cheers
 * Day 19 - Scopes 
  This Topic covered how we can access variables. Locals & Globals which was pretty self explanatory and understandable 
  * Day 20 - WRDLE PROJECT - Not yet done! will be back for that, i need more knowledge :) lol... Yeah, i got pretty confused in looping through loops and loops lol. but i got most part just need to work on it myself!
-* Day 21 - Arrow Function Introduction
+* Day 21 - Arrow Function Introduction & Call Back functions
+* Day 22 - Clean Code : This section talked about 
+    - Indentation 
+    - White Spaces
+    - Create Good Names 
+    - Flat is better than nested 
+    - Documentation 
