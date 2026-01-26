@@ -31,3 +31,5 @@ Cheers
     - Create Good Names 
     - Flat is better than nested 
     - Documentation 
+
+* Day 23 - Objects 

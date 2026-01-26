@@ -77,9 +77,10 @@ for(fruit in fruits){
     fruits[fruitProperty] = Number(fruitDigits);
 }
 
-console.log(fruits);
+// console.log(fruits);
 
 // JSON = JAVASCRIPT OBJECT NOTATION (DATA STRUCTURE)
+// objects
 let order1 = {
     number: 846344,
     items: [
@@ -88,4 +89,63 @@ let order1 = {
     ]
 }
 
-console.log(order1)
+//json
+// {
+//   "name": "John",
+//   "age": 30,
+//   "isStudent": false,
+//   "fruits": ["apple", "banana"],
+//   "address": {
+//     "street": "123 Main St"
+//   }
+// }
+
+// console.log(order1)
+// console.log(typeof order)
+
+//Convert this JSON string into a JavaScript Object
+// '{"id":1,"type":"general","setup":"Why don\'t scientists trust atoms?","punchline":"Because they make up everything!"}'
+
+let info = {
+    id: 1,
+    type: "general",
+    setup: "Why don\'t scientists trust atoms?",
+    punchline: "Because they make up everything!"
+}
+
+// let infoAsJSON = JSON.stringify(info);
+// console.log(infoAsJSON)
+
+// let infoAsObject = JSON.parse(info);
+// console.log(infoAsObject);
+
+// console.log(info)
+
+
+// const jokes = {
+//         "id":1,
+//         "type":"general",
+//         "setup":"Why don\'t scientists trust atoms?","punchline":"Because they make up everything!"
+// }
+
+// console.log(JSON.stringify(jokes));
+// console.log(JSON.parse(jokes));
+
+// METHODS
+// Methods are also function 
+let person = {
+    name: "Angela",
+    // Methods example
+    greetPeople: () => {return 'Hello everyone!'},
+
+    leavePeople: function (){return 'Bye everyone!'},
+    
+    eatPeople(){return 'Rawrrrrr'},
+}
+
+let result = person.greetPeople();
+let result2 = person.leavePeople();
+let result3 = person.eatPeople();
+console.log(result);
+console.log(result2);
+console.log(result3)
