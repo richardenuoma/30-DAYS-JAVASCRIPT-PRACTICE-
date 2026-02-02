@@ -32,4 +32,6 @@ Cheers
     - Flat is better than nested 
     - Documentation 
 
-* Day 23 - Objects 
+* Day 23 - Objects Methods 
+* Day 24 - Array Methods 
+* Day 25 - String Methods 
