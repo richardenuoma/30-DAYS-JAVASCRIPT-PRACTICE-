@@ -35,3 +35,5 @@ Cheers
 * Day 23 - Objects Methods 
 * Day 24 - Array Methods 
 * Day 25 - String Methods 
+* Day 26 - Classes 
+    Project - Todo List Project 

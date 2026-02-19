@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Creato Display";
+    background: black;
+}
+
+.container{
+    background: rgb(217, 217, 217); 
+    width: 20%;
+    /* border: 1px solid black; */
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 10px;
+    /* box-shadow: 2px 5px 10px 5px rgba(0, 0, 0, 0.291); */
+    color: rgb(68, 68, 68);
+}
+
+.inputs{
+    /* background: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label[for="price"]{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#digitInput{
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#digitInput:focus{
+    outline: none;
+}
+
+.taxResultContainer{
+    line-height: 10px;
+}
+
+#taxResult{
+    font-weight: bold
+}
+
+
+.result{
+    /* background: gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height:1%
+}
+
+#totalTaxResult{
+    font-weight: bold;
+}
+
+
+.calculateBtn{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    width: 40%;
+}
