@@ -4,7 +4,8 @@
 * Day 3 - Hero Name Generator 
 * Day 4 - BMI Calculator Using YMCA formula 
 * Day 5 - Farenheight Converter to Celcius 
-* Day 6 - Variables... Interesting but there wasn't any project for me to do. so Moving to the next day... 
+* Day 6 - Variables... Interesting but there wasn't any project for me to do. so Moving to the next day...
+     Day 6 got repeated 19th Feb 2026, Original Date was in January. Probably 1 month after i did it :) because repetition is the best way to learn, so i completed the VAT Calclator Challange and i think i didn't see it before now! so yeah. it's now complete. Thank you.
 * Day 7 - Strings ":)" You know what a string is don't you? You're in Github ofcourse u do!
 * Day 8 - :Grade Average Calculator 
 ( quite a bit challanging but i'll come back to it, sorry for messing up the fun...
