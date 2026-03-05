@@ -1,6 +1,6 @@
 // Select digitInput, calculateBtn and totalTaxResult
 
-let price = document.getElementById('digitInput');
+let price = document.getElementById('digitInput'); 
  
 let btn = document.querySelector(".calculateBtn").addEventListener('click', ()=>{
     vatCalculator(price.value);
@@ -9,7 +9,7 @@ let btn = document.querySelector(".calculateBtn").addEventListener('click', ()=>
 let totalTaxResult = document.querySelector("#totalTaxResult");
 
 
-
+// Create a function to calculate the percentage price 
 function vatCalculator(price){
     const TAX_RATE = 0.20;
     let calculatedTax = TAX_RATE * price; 
