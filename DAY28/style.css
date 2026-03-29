@@ -1,0 +1,68 @@
+*{
+    font-family: "Poppins";
+}
+
+body{
+    background-image: linear-gradient(rgb(255, 255, 148), yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+}
+.container{
+    background: white;
+    margin: 40px auto; 
+    padding: 40px;
+    width: 500px;
+    border-radius: 10px;
+    
+}
+
+.cake{
+    font-size: 60px;
+    margin: 10px;
+    animation-name: cakeAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ }
+
+@keyframes cakeAnimation {
+    0%{transform: translateY(-15px)}
+    30%{transform: translateY(0px)}
+    100%{transform: translateY(-15px)}
+
+}
+
+.timerContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    background: white;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.days,.hours,.minutes,.sec{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 5px 8px 0px rgba(0, 0, 0, 0.2)
+}
+
+.digit{
+    color: tomato;
+}
+
+.timerContainer h3{
+    margin: 0px;
+    font-size: 24px
+}
+
+.timerContainer p{
+    margin: 0px;
+}
