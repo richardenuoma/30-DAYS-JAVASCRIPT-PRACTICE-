@@ -1,4 +1,4 @@
-setInterval(()=>{
+const countDown = setInterval(()=>{
 let now = new Date()
 let birthday = new Date(2026,3,19);
 
@@ -29,7 +29,10 @@ let minuteInput = document.querySelector('.minute').innerHTML = minute;
 
 let secondsInput = document.querySelector('.ms').innerHTML = seconds;
 
-
+if(dayInput === 0 && hourInput === 0 && minuteInput === 0 && secondsInput === 0){
+    clearInterval(countDown)
+    let heading = document.getElementsByTagName('h1').innerHTML = "Happy Birthday to Me 🎉🎂" ;
+}
 }, 1000)
 
 
