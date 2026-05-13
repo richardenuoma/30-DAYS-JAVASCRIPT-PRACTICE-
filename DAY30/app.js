@@ -131,12 +131,10 @@ const products = [
 ];
 
 function calculateExpensivePrice(billArray){
-    const result = billArray
-    .filter((bill)=> bill.price >= 20)
-    .map((bill)=> bill.price)
+    const calculatedOutput = billArray
+    .filter((bill)=> bill.price > 20)
+    .map((bill) => bill.price)
     .reduce((acc,bill)=> acc + bill, 0);
-
-    return `The total is $${result}`;
 }
 
 console.log(calculateExpensivePrice(products))
